@@ -3,13 +3,11 @@
                 <!-- Blog Search Well -->
                 <div class="well">
                     <h4>Blog Search</h4>
-                    <form action="" method="post">
+                    <form id="search-form" action="search.php" method="get">
                          <div class="input-group">
-                        <input type="text" class="form-control">
+                        <input name="search" type="search" class="form-control">
                         <span class="input-group-btn">
-                            <button name="submit" type="submit" class="btn btn-default">
-                                <span class="glyphicon glyphicon-search"></span>
-                        </button>
+                            <input name="submit" type="submit" class="btn btn-default">
                         </span>
                     </div>
                     </form>
